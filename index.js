@@ -17,11 +17,9 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   var array = []
-  var counter = 0
   do {
     array.unshift("I love the Beatles!")
     num++
-    counter++
   } while (num < 15)
   console.log(array)
 }
