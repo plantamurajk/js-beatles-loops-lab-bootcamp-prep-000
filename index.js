@@ -26,4 +26,4 @@ function iLoveTheBeatles(num){
   console.log(array)
 }
 
-iLoveTheBeatles(17)
+iLoveTheBeatles(7)
