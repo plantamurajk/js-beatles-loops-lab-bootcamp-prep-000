@@ -19,7 +19,7 @@ function iLoveTheBeatles(num){
   var array = []
   var counter = 0
   do {
-    array[counter] = ("I love the Beatles!")
+    array.unshift("I love the Beatles!")
     num++
     counter++
   } while (num < 15)
