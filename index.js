@@ -23,7 +23,7 @@ function iLoveTheBeatles(num){
     num++
     counter ++
   } while (num <= 15)
-  console.log array
+  console.log(array)
 }
 
 iLoveTheBeatles(8)
