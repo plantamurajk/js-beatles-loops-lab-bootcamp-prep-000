@@ -21,8 +21,5 @@ function iLoveTheBeatles(num){
     array.unshift("I love the Beatles!")
     num++
   } while (num < 15)
-  console.log(array)
   return array
 }
-
-iLoveTheBeatles(7)
