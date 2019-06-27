@@ -1,5 +1,8 @@
 // add solution here
 
-function theBeatlesPlay(musician, instrument){
+function theBeatlesPlay(musicians, instruments){
   var roster = []
+  for(var i = 0; i < musicians.length; i++){
+    roster[i] = (musicians[i] + " plays " + instruments[i])
+  }
 }
