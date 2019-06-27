@@ -21,7 +21,7 @@ function iLoveTheBeatles(num){
   do {
     array[counter] = ("I love the Beatles!")
     num++
-    counter ++
+    counter++
   } while (num < 15)
   console.log(array)
 }
